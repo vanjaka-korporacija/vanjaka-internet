@@ -2,9 +2,12 @@
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
-    <title>Vanjaka Internet - Preuzimanje</title>
+    <title>Vanjaka Internet - Službeno Preuzimanje</title>
+    
     <link rel="icon" type="image/x-icon" href="ikona.ico">
+    
     <style>
+        /* POZADINA: Retro prijelaz */
         body { 
             background: linear-gradient(135deg, #ffff00 0%, #ffff00 25%, #ffaa00 25%, #ffaa00 50%, #ff5500 50%, #ff5500 75%, #ff0000 75%, #ff0000 100%);
             background-attachment: fixed;
@@ -12,6 +15,8 @@
             font-family: "Times New Roman", serif; 
             margin: 0; padding: 20px; min-height: 100vh;
         }
+
+        /* Glavni plavi kontejner */
         .main-box {
             background-color: #000080; 
             border: 5px solid #ffffff;
@@ -19,8 +24,10 @@
             margin: 40px auto;
             box-shadow: 15px 15px 0px #000000;
         }
+
         header { border-bottom: 3px solid #ffffff; padding: 25px; text-align: center; }
 
+        /* LOGOTIP - STILIZIRANI TEKST */
         .logo-box {
             background: #ffffff;
             color: #000000;
@@ -34,14 +41,33 @@
         }
 
         h1 { color: #ffff00; text-shadow: 3px 3px 0px #000; font-size: 28px; margin: 15px 0; }
-        .ticker { background: #ffffff; color: #ff0000; font-weight: bold; text-align: center; padding: 10px; border-top: 2px solid #000; border-bottom: 2px solid #000; }
-        .content-area { background-color: #ffffff; color: #000000; margin: 25px; padding: 25px; border: 3px solid #000; }
-        .screenshot-frame { border: 2px solid #000; padding: 10px; margin: 20px 0; background: #e0e0e0; text-align: center; }
+        
+        .ticker {
+            background: #ffffff; color: #ff0000; font-weight: bold;
+            text-align: center; padding: 10px; border-top: 2px solid #000; border-bottom: 2px solid #000;
+        }
+
+        .content-area {
+            background-color: #ffffff; color: #000000; margin: 25px; padding: 25px; border: 3px solid #000;
+        }
+
+        .screenshot-frame {
+            border: 2px solid #000; padding: 10px; margin: 20px 0; background: #e0e0e0; text-align: center;
+        }
+
         .screenshot-frame img { max-width: 100%; border: 1px solid #000; }
+
         .download-zone { text-align: center; padding: 30px; background: #cccccc; border-top: 5px double #000080; }
-        .download-btn { background-color: #ff0000; color: white; padding: 20px 45px; text-decoration: none; font-weight: bold; border: 5px outset #ffaaaa; font-size: 26px; display: inline-block; box-shadow: 6px 6px 0px #000; }
+
+        .download-btn {
+            background-color: #ff0000; color: white; padding: 20px 45px; text-decoration: none;
+            font-weight: bold; border: 5px outset #ffaaaa; font-size: 26px; display: inline-block;
+            box-shadow: 6px 6px 0px #000;
+        }
+
         .download-btn:active { border: 5px inset #550000; transform: translate(2px, 2px); box-shadow: 2px 2px 0px #000; }
 
+        /* RETRO SIVI FOOTER */
         .retro-footer {
             background-color: #808080; 
             color: #000000;
@@ -57,14 +83,8 @@
             border-bottom: 1px solid #666;
             padding-bottom: 10px;
         }
-        .footer-contact {
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-        .footer-links a {
-            color: #0044cc;
-            text-decoration: underline;
-        }
+        .footer-contact { font-size: 14px; margin-bottom: 5px; }
+        .footer-links a { color: #0044cc; text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -90,7 +110,7 @@
         </div>
 
         <div class="download-zone">
-            <a href="Vanjaka_Internet_Instalacija.zip" class="download-btn">DOWNLOAD (.ZIP)</a>
+            <a href="https://github.com/vanjaka-korporacija/vanjaka-internet/releases/download/v1.0/Vanjaka_Internet_Instalacija.zip" class="download-btn">DOWNLOAD (.ZIP)</a>
         </div>
 
         <div class="retro-footer">
